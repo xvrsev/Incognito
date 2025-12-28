@@ -30,7 +30,9 @@ public class IncognitoPlugin extends JavaPlugin implements Listener {
 
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
-        if (!(sender instanceof Player p)) return true;
+        if (!(sender instanceof Player)) return true;
+        Player p = (Player) sender;
+
 
         Inventory inv = Bukkit.createInventory(null, 9, ChatColor.DARK_GRAY + "Incognito");
 
