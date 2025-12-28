@@ -1,0 +1,7 @@
+name: Incognito
+version: 1.0
+main: pl.incognito.IncognitoPlugin
+api-version: 1.21
+commands:
+  incognito:
+    description: Menu incognito
